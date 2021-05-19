@@ -2,9 +2,10 @@
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19D76" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
     <entity name="Juego" representedClassName="Juego" syncable="YES" codeGenerationType="class">
         <attribute name="imagen" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="tipojuego" optional="YES" attributeType="String"/>
         <attribute name="titulo" attributeType="String"/>
     </entity>
     <elements>
-        <element name="Juego" positionX="-63" positionY="-18" width="128" height="73"/>
+        <element name="Juego" positionX="-63" positionY="-18" width="128" height="88"/>
     </elements>
 </model>
